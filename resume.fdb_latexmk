@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1535699030 "/Users/santisantichaivekin/Desktop/important-docs/resume/resume.tex" "resume.pdf" "resume" 1535699031
+["pdflatex"] 1535699030 "/Users/santisantichaivekin/Desktop/important-docs/resume/resume.tex" "resume.pdf" "resume" 1535699308
   "/Users/santisantichaivekin/Desktop/important-docs/resume/resume.tex" 1535699030 5212 92eba9a41e90df57968912010bb2ef89 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/tex-gyre/q-ec.enc" 1480098669 2458 3b98c7cf30777b7803f362f19b1b8e68 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
@@ -54,7 +54,7 @@
   "resume.out" 1535699031 0 d41d8cd98f00b204e9800998ecf8427e ""
   "resume.tex" 1535699030 5212 92eba9a41e90df57968912010bb2ef89 ""
   (generated)
-  "resume.pdf"
-  "resume.out"
   "resume.aux"
   "resume.log"
+  "resume.pdf"
+  "resume.out"
