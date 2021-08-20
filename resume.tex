@@ -1,6 +1,6 @@
 % template by zmanji/zameermanji.com
 \documentclass[10pt,letterpaper]{article}
-\usepackage[margin=0.75in]{geometry}
+\usepackage[lmargin=0.8in, rmargin=0.8in, tmargin=0.5in, bmargin=0.5in]{geometry}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[stretch=10]{microtype}
@@ -13,12 +13,14 @@
 
 \linespread{1}
 \begin{document}
-\fontsize{9.0}{11.0}\selectfont
+\fontsize{9.0}{11}\selectfont
+\parskip=-0.3em
+\hyphenpenalty=1000
 
 \begin{center}
 {\Large \textbf{Santi Santichaivekin}}
 
-\ \ \href{mailto:jsantichaivekin@hmc.edu}{jsantichaivekin@hmc.edu}\ \ 
+\ \ \href{mailto:s.santichaivekin@gmail.com}{s.santichaivekin@gmail.com}\ \ 
 \ \ \textbullet
 \ \ \href{https://github.com/ssantichaivekin}{github.com/ssantichaivekin}
 \ \ \textbullet
@@ -26,143 +28,157 @@
 
 \end{center}
 
-\vspace{-0.25em}
-\hrule
-\vspace{-0.55em}
 \subsection*{Education}
-  \begin{itemize}
-    \parskip=-0.25em
+\vspace{-0.2em}
+\hrule
+\vspace{1em}
+  \begin{itemize}[label={},leftmargin=*]
+    \setlength\itemsep{0.8em}
+    \parskip=-0.2em
     % Harvey Mudd College
-    \item[]
-    \textbf{Harvey Mudd College} \hfill
-      Claremont, CA\\
-    {B.S. in Computer Science, GPA 3.81
-    \hfill \emph{Class of 2022}}\\
-    \item[]
-    \vspace{-1.3em}
-    \textbf{Coursework:}
+    \item
+    \textbf{Harvey Mudd College}, Claremont, CA \hfill
+    Expected May 2022\\
+    B.S. in Computer Science, GPA 3.81
+    \item \textbf{Coursework:}
   % \textbf{In progress:}   \\
-  % \textbf{Completed:}
-  Advanced Topics in Algorithms; 
-  Complexity Theory;
-  Machine Learning and Search; 
-  Digital Electronics; 
-  Science of Debugging;
+  % \textbf{Completed:} 
   Computer Systems;
+  Advanced Algorithms; 
+  Complexity Theory;
+  Digital Electronics;
+  Science of Debugging;
   Software Development;
   Data Structures;
-  Multivariable Calculus
-  % Differential Equations;
+  Machine Learning and Search;
+  % Multivariable Calculus;
+  Differential Equations;
   Linear Algebra
   \end{itemize}
 
-\vspace{-0.25em}
-\hrule
-\vspace{-0.55em}
 \subsection*{Skills}
-\begin{itemize}
+\vspace{-0.2em}
+\hrule
+\vspace{1em}
+\begin{itemize}[label={},leftmargin=*]
 \parskip=-0.25em
 \item[]
+Proficient:
   Python,
-  Java, Spring,
-  JavaScript, React, NodeJS,
+  Java
+|
+Prior Experience:
+  JavaScript, 
+  React, NodeJS,
   Go,
   C++,
   C,
-  C\#,
   Bash,
+  SystemVerilog,
   SQL,
-  Kubernetes,
-  Prolog,
-  SystemVerilog
+  Kubernetes
     
 \end{itemize}
 
-\vspace{-0.25em}
-\hrule
-\vspace{-0.55em}
 \subsection*{Work Experience}
-  \begin{itemize}
-    \parskip=-0.05em
-    \item[]
+\vspace{-0.5em}
+\hrule
+\vspace{1em}
+  \begin{itemize}[label={},leftmargin=*]
+    \setlength\itemsep{1em}
+    \parskip=-0.2em
+    \item
     {\textbf{Software Engineer}, \textit{Line Man Wongnai}, Bangkok, Thailand \hfill {Spring 2020 - Summer 2021}}
     \begin{itemize}[label=\textbullet]
-      \itemsep0.1em
-      \item Contributed bugfixes, refactorings, and features to the authorization, registration, payment calculation, and revenue report service of the company's restaurant management system. Used Java (Spring) and JavaScript (NodeJS, React).
-      \item Wrote port forward scripts, remote debugging scripts, and documentations for three backend services.
+      \itemsep0em
+      \item Worked as a backend software engineer on the company's restaurant management system. Worked on claims \& refunds, revenue calculations, admin website, reports, and referral system. Used Java, NodeJS, SQL, Kubernetes, and React.
+      \item Wrote remote debugging and port-forwarding scripts. Improved documentation for three backend services.
     \end{itemize}
+    \item
     {\textbf{Research Assistant} (Remote), \textit{Harvey Mudd College}, Claremont, CA \hfill {Summer 2020}}
     \begin{itemize}[label=\textbullet]
-      \itemsep0.1em
-      \item Managed a team of six under professor supervision to develop Empress---a Python application that helps biologists understand how different species depended on one another in the past. (\href{https://github.com/ssantichaivekin/empress}{github.com/ssantichaivekin/empress})
-      \item Made key design and style decisions, managed GitHub issues, led rigorous code review processes.
-      \item Created a pipeline for testing, freezing, and packaging the application using Pyinstaller and Github Actions.
-      \item Held Zoom information sessions on Git, GitHub, text editors and integrated development environments, Python best practices, and Python debugging tools for rising sophomores in the team.
+      \itemsep0em
+      \item Managed a team of six under professor supervision to develop and release Empress---a Python application that helps biologists understand how species coevolve. (\href{https://github.com/ssantichaivekin/empress}
+      {\UrlFont{github.com/ssantichaivekin/empress}})
+      \item Made key architecture and style decisions, managed GitHub issues and pull requests, led rigorous code review processes.
+      \item Created a pipeline for testing, freezing, packaging, and signing the application using Pyinstaller and Github Actions.
+      \item Held Zoom information sessions on Git, GitHub, text editors, integrated development environments, best software engineering practices, and debugging tools.
     \end{itemize}
-    \item[]
+    \item
     {\textbf{CS Tutor/Grader}, \textit{Harvey Mudd College}, Claremont, CA \hfill {Spring 2018 - Fall 2020}}
     \begin{itemize}[label=\textbullet]
-      \itemsep0.1em
-      \item Tutored and graded Advanced Algorithms, Algorithms, two semesters of Computability and Logic, and two semesters of Computer Science for Insight.
+      \itemsep0em
+      \item Tutored and graded Advanced Topics in Algorithms, Algorithms, two semesters of Computability and Logic, and two semesters of Python Scripting.
     \end{itemize}
-    \item[]
+    \item
+    % {\textbf{Career Services Peer Consultant}, \textit{Harvey Mudd College}, Claremont, CA \hfill {Fall 2019 - Fall 2020}}
+    % \item
     {\textbf{Software Engineer Intern}, \textit{Uber ATG}, San Francisco, CA \hfill {Summer 2019}}
     \begin{itemize}[label=\textbullet]
-      \itemsep0.1em
-      \item Implemented an algorithm to help reduce the number of
-      latitude-longitude waypoints in routing engine for self-driving cars. Used Java.
-      \item Developed metrics for measuring the consistency of self-driving car constraints such as "do not take unprotected left turn" and "do not enter school area" among different services in Uber's self-driving platform. Used Go.
+      \itemsep0em
+      \item Reduced the number of geopositional waypoints sent over the network for self-driving cars navigation by over 50\% by implementing an algorithm based on Ramer–Douglas–Peucker line simplification algorithm.
+      \item Developed metrics for monitoring the consistency of self-driving car constraints such as ``do not take unprotected left turns'' and ``do not enter school area'' among different routing services and display them in Grafana. Used Go and Java.
     \end{itemize}
-    \item[]
+    \item
     {\textbf{Software Engineer Intern}, \textit{Microsoft}, Bellevue, WA \hfill {Summer 2018}}
     \begin{itemize}[label=\textbullet]
-      \itemsep0.1em
-      \item Implemented an event queue which performs layout calculations in the background 
-      across multiple frames to make complex visual transitions in Microsoft Whiteboard application
-      more responsive. Used C\#.
+      \itemsep0em
+      \item Implemented an event queue that improved the responsiveness of complex visual transitions in Microsoft Whiteboard application by performing layout calculations in the background. Used C\#.
     \end{itemize}
   \end{itemize}
 
-\vspace{-0.25em}
+
+\subsection*{Selected Publications}
+\vspace{-0.2em}
 \hrule
-\vspace{-0.55em}
-\subsection*{Publications}
-\begin{itemize}[label={}]
-  \parskip=-0.25em
+\vspace{1em}
+\begin{itemize}[label={},leftmargin=*]
+  \setlength\itemsep{0.8em}
+    \parskip=-0.2em
   \item Santichaivekin, S., Yang, Q., Liu, J., Mawhorher, R., Jiang, J., Wesley, T., Wu, Y., \& Libeskind-Hadas, R. \textit{eMPRess: A Systematic Cophylogeny Reconciliation Tool}. \href{https://doi.org/10.1093/bioinformatics/btaa978}{Bioinformatics, btaa978 (2020).}
-  \vspace{0.2em}
-  \item[]\vspace{-1.3em}
   \item Santichaivekin, S., Mawhorter, R., \& Libeskind-Hadas, R. \textit{An efficient exact algorithm for computing all pairwise distances between reconciliations in the duplication-transfer-loss model.} \href{https://doi.org/10.1186/s12859-019-3203-9}{BMC Bioinformatics 20, 636 (2019)}.
 \end{itemize}
 
-\vspace{-0.25em}
+\subsection*{Personal Projects}
+\vspace{-0.5em}
 \hrule
-\vspace{-0.55em}
-\subsection*{Additional}
-  \begin{itemize}
-    \parskip=-0.25em
-    \item[]
-    Open Source Contributions: nltk (2 bugfixes), pyinstaller (1 bugfix)
-    \item[]
-    Halite3 AI Competition Bot, 2018 (\href{https://github.com/ssantichaivekin/halite3}
-    {github.com/ssantichaivekin/halite3})
+\vspace{1em}
+  \begin{itemize}[label={},leftmargin=*]
+    \setlength\itemsep{1em}
+    \parskip=-0.2em
+    \item
+    {\textbf{Halite3 AI Competition Bot} (\href{https://github.com/ssantichaivekin/halite3}
+    {\UrlFont{github.com/ssantichaivekin/halite3}})\hfill {Fall 2018}}
     \begin{itemize}[label=\textbullet]
-        \item  Designed and wrote evolutionary algorithm and evaluation functions to navigate ships and collect resources using C++ and Python. Fine-tuned hyperparameters on remote server. Finished 201\textsuperscript{st} place out of 4014 total participants.
-        
+      \itemsep0em
+        % \item  TODO: Add hyperschedule here!!!
+        \item  Planned ship movements to collect resources around the game map while avoiding collisions using evaluation functions and evolutionary algorithm. Used Python and C++. Fine-tuned hyperparameters on remote server.
+        % \item Finished with rank 201 out of 4014 total participants.
     \end{itemize}
-    \item[]
-    {5\textsuperscript{th} place in ACM-ICPC Contest SoCal Region, 2018}
-    % {5\textsuperscript{th} place in ACM-ICPC Contest SoCal Region, 2017}\\
-    \item[]
-    {1\textsuperscript{st} place in Harvey Mudd College Microsoft Coding Competition, 2017}
   \end{itemize}
 
-% \hrule
-% \vspace{-1.0em}
-% \subsection*{Hobbies}
-% \begin{description}[labelindent=\parindent]
-%   \parskip=-0.5em
-% \item[] {Unicycle, Competitive Programming, Drawing, Painting, Subtitling Educational Videos.}
-% \end{description}
+
+\subsection*{Additionals}
+\vspace{-0.2em}
+\hrule
+\vspace{1em}
+  \begin{itemize}[label={},leftmargin=*]
+    \setlength\itemsep{0.3em}
+    \parskip=-0.2em
+    % Twitter 2.0
+    \item
+    Open Source Contributions: Pyinstaller (1 bugfix), Nltk (2 bugfixes)
+    \item
+    Residential Life Mentor, Harvey Mudd College, Claremont, CA \hfill Fall 2021 - Spring 2022
+    % \item
+    % 2411\textsuperscript{st} place in Google Code Jam Round 2 \hfill Fall 2021
+    % \item
+    % Top 95\textsuperscript{th} percentile in Halite 3 AI Competition \hfill Fall 2018
+    \item
+    5\textsuperscript{th} place in ICPC Southern California Regional Contest \hfill Fall 2018
+    \item
+    1\textsuperscript{st} place in Harvey Mudd College Microsoft Coding Competition \hfill
+    Fall 2017
+  \end{itemize}
 
 \end{document}
